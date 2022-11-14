@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="-M-V_CaBfl7RFqBqpISG" name="第 1 页">
+        <mxGraphModel dx="714" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="80" width="170" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="执行上下文栈" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="65" y="50" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="全局执行上下文&lt;br&gt;VO：GO" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="75" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="80" width="370" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Data对象等window内置对象&lt;br&gt;foo：oxaoo" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="120" width="150" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="GO（window）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="120" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="function name&lt;br&gt;function length" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="120" width="120" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="foo（axaoo）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="存放foo函数的参数和内部的变量" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="380" width="120" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="foo的AO对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="380" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;执行foo函数&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;函数的VO对象就是函数的AO对象&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="75" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="foo（VO：AO）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="75" y="330" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;ol&gt;&lt;li&gt;js每次执行一个代码块都会创建一个执行上下文栈&lt;/li&gt;&lt;li&gt;每一个执行上下文栈都有一个VO对象，全局执行上下文的VO对象指向全局对象，函数指向上下文栈的VO指向函数的AO对象&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="10" width="440" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
