@@ -22,6 +22,6 @@ class Student extends Person {
 		this.SNO = SNO
 	}
 }
-
-const student = new Student('hjx',24,100001)
-console.log(student)
+//
+// const student = new Student('hjx',24,100001)
+// console.log(student)
