@@ -1,0 +1,11 @@
+const s1 = new Set()
+s1.add(1)
+s1.add(2)
+s1.add(1)
+s1.add(3)
+console.log(s1)
+console.log(Array.from(s1))
+console.log(s1.size)
+s1.forEach(item => {
+	console.log(item)
+})
