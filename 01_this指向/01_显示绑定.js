@@ -1,11 +1,11 @@
 const obj = {
-	bar: function () {
-		console.log(this)
-	}
-}
+  bar: function () {
+    console.log(this);
+  },
+};
 
 function bar(fn) {
-	fn()
+  fn();
 }
 
-bar(obj.bar)
+bar(obj.bar);
